@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import Home from './Components/Home/Home.js';
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
 	return (
 		<div style={backgroundStyle}>
 		<Routes>
-			<Route path='/' element={<Home />} />
+			<Route path='/portfolio-new' element={<Home />} />
 		</Routes>
 		</div>
 	);
