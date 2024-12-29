@@ -11,7 +11,7 @@ function App() {
 	return (
 		<div style={backgroundStyle}>
 		<Routes>
-			<Route path='/portfolio-new' element={<Home />} />
+			<Route path='/' element={<Home />} />
 		</Routes>
 		</div>
 	);
